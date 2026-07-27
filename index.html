@@ -3,8 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Legal documents for Ice Time, the personal hockey stats tracker for iOS.">
-  <title>Ice Time — Support &amp; Legal</title>
+  <meta name="description" content="Ice Time is a personal hockey stats tracker for iPhone. Log every skate in under 60 seconds, track goals, assists and plus-minus, find the rink you're at, skate with friends, and watch your season take shape.">
+  <meta name="theme-color" content="#0e2a47">
+  <title>Ice Time — Personal Hockey Stats Tracker for iPhone</title>
+
+  <!-- Open Graph / social -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Ice Time — Personal Hockey Stats Tracker">
+  <meta property="og:description" content="Log every skate in under 60 seconds. Track your goals, assists and plus-minus, find your rink, and watch your season take shape.">
+
+  <link rel="icon" href="images/favicon-32.png" sizes="32x32">
+  <link rel="icon" href="images/favicon-512.png" sizes="512x512">
+  <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
@@ -15,46 +25,265 @@
   <header class="site-header">
     <div class="wrap">
       <a class="brand" href="index.html">
-        <span class="brand-mark" aria-hidden="true"></span>
+        <img class="brand-mark" src="images/logo.png" width="231" height="256" alt="" aria-hidden="true">
         <span class="brand-name">Ice Time</span>
       </a>
       <nav class="site-nav" aria-label="Site">
+        <a href="#features">Features</a>
+        <a href="#privacy">Privacy</a>
+        <a href="support.html">Support</a>
         <a href="privacy.html">Privacy Policy</a>
         <a href="terms.html">Terms of Service</a>
       </nav>
     </div>
   </header>
 
-  <main>
-    <section class="hero">
-      <h1>Ice Time</h1>
-      <p class="tagline">Track your skates, follow your stats, and see how your season stacks up — all from your pocket.</p>
-      <div class="rink-lines" aria-hidden="true"><span></span><span></span><span></span></div>
+  <main class="mkt">
+
+    <!-- ============ HERO ============ -->
+    <section class="mkt-hero">
+      <div class="mkt-hero__glow" aria-hidden="true"></div>
+      <div class="mkt-hero__inner container">
+        <div class="mkt-hero__copy">
+          <p class="eyebrow">Personal hockey stats tracker · iPhone</p>
+          <h1>Log every skate<br>in under a minute.</h1>
+          <p class="lede">Ice Time tracks your goals, assists and plus-minus, finds the rink you're standing in, and turns every game into a season worth bragging about — all from your pocket.</p>
+          <div class="cta-row">
+            <!-- TODO: replace href with your live App Store URL when the app launches -->
+            <a class="appstore-badge" href="#" aria-label="Coming soon to the App Store">
+              <svg class="appstore-badge__logo" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <path fill="currentColor" d="M17.05 12.94c-.03-2.6 2.12-3.85 2.22-3.91-1.21-1.77-3.1-2.02-3.77-2.05-1.6-.16-3.13.94-3.94.94-.81 0-2.07-.92-3.4-.9-1.75.03-3.36 1.02-4.26 2.58-1.82 3.15-.47 7.82 1.3 10.38.86 1.25 1.89 2.66 3.24 2.6 1.3-.05 1.79-.84 3.36-.84 1.57 0 2.01.84 3.39.81 1.4-.02 2.29-1.27 3.15-2.53.99-1.45 1.4-2.85 1.42-2.93-.03-.01-2.72-1.04-2.75-4.13zM14.6 5.4c.72-.87 1.2-2.08 1.07-3.29-1.03.04-2.28.69-3.02 1.55-.66.77-1.24 2-1.09 3.18 1.15.09 2.32-.58 3.04-1.44z"/>
+              </svg>
+              <span class="appstore-badge__text">
+                <small>Coming soon on the</small>
+                <strong>App Store</strong>
+              </span>
+            </a>
+            <a class="btn-ghost btn-ghost--dark" href="#features">See what it does →</a>
+          </div>
+          <ul class="hero-badges" aria-label="At a glance">
+            <li>60-second logging</li>
+            <li>GPS rink detect</li>
+            <li>No ads, ever</li>
+          </ul>
+        </div>
+
+        <div class="mkt-hero__art">
+          <!-- My Skates screen -->
+          <img class="appshot appshot--float" src="images/skates.jpeg" width="640" height="1387"
+               alt="Ice Time app — the My Skates screen: a Season Statline card showing games played, goals, assists, points and plus-minus above a list of logged skates.">
+        </div>
+      </div>
     </section>
 
-    <section class="doc-cards" aria-label="Legal documents">
-      <a class="doc-card" href="privacy.html">
-        <h2>Privacy Policy</h2>
-        <p>What information Ice Time collects, how it's stored, and the choices you have over your data.</p>
-        <span class="go">Read the policy →</span>
-      </a>
-      <a class="doc-card" href="terms.html">
-        <h2>Terms of Service</h2>
-        <p>The rules for using Ice Time, your responsibilities as a user, and ours as the app's maker.</p>
-        <span class="go">Read the terms →</span>
-      </a>
+    <!-- ============ FOUR TABS ============ -->
+    <section class="band" id="features">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow eyebrow--dark">Four tabs, one season</p>
+          <h2>Everything you need on the ice, and nothing you don't.</h2>
+          <p class="section-sub">Ice Time is built around the way you actually play — four focused tabs that turn a quick post-game tap into a full picture of your season.</p>
+        </div>
+
+        <div class="pillars">
+          <article class="pillar">
+            <span class="pillar__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M9 4h6a1 1 0 0 1 1 1v0a1 1 0 0 0 1 1h1a1 1 0 0 1 1 1v11a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h1a1 1 0 0 0 1-1v0a1 1 0 0 1 1-1Z"/><path d="m9 13 2 2 4-4"/></svg>
+            </span>
+            <h3>Skates</h3>
+            <p>Log a game in three quick steps — game type, score, and your stat line. Goals, assists, plus-minus, notes, done.</p>
+          </article>
+
+          <article class="pillar">
+            <span class="pillar__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-6.5-5.4-6.5-10.2A6.5 6.5 0 0 1 12 4.3a6.5 6.5 0 0 1 6.5 6.5C18.5 15.6 12 21 12 21Z"/><circle cx="12" cy="10.6" r="2.3"/></svg>
+            </span>
+            <h3>Rinks</h3>
+            <p>Live rink discovery finds where you're skating. Save your regulars, set a home rink, or suggest one that's missing.</p>
+          </article>
+
+          <article class="pillar">
+            <span class="pillar__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3"/><path d="M3.5 20a5.5 5.5 0 0 1 11 0"/><path d="M16 5.2a3 3 0 0 1 0 5.6"/><path d="M18 14.5a5.5 5.5 0 0 1 2.5 4.5"/></svg>
+            </span>
+            <h3>Friends</h3>
+            <p>Invite the bench with a QR code or link. See friends' recent stats and go head-to-head at the rinks you share.</p>
+          </article>
+
+          <article class="pillar">
+            <span class="pillar__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20V10"/><path d="M10 20V4"/><path d="M16 20v-7"/><path d="M4 20h16"/></svg>
+            </span>
+            <h3>Stats</h3>
+            <p>Season and career views, computed live — points, win rate, points per game, streaks, and rinks visited.</p>
+          </article>
+        </div>
+      </div>
     </section>
 
-    <p class="contact-note">
-      Questions or support? Email <a href="mailto:icetimestatsapp@gmail.com">icetimestatsapp@gmail.com</a>
-    </p>
+
+    <!-- ============ DEEP DIVE: RINKS ============ -->
+    <section class="feature feature--alt">
+      <div class="container feature__grid feature__grid--rev">
+        <div class="feature__copy">
+          <p class="eyebrow eyebrow--dark">Rinks</p>
+          <h2>Know every sheet of ice you skate.</h2>
+          <p>Rink discovery is live — search by name or find what's nearby, no seeded list to go stale. Voice search means you can find a rink with your gloves still on. Every rink page shows your stat line there, who else skates it, and how you stack up head-to-head.</p>
+          <ul class="ticks">
+            <li>Live search and nearby discovery powered by Maps</li>
+            <li>Hands-free voice search</li>
+            <li>Save your regulars and set a home rink</li>
+            <li>Suggest a missing rink for everyone</li>
+          </ul>
+        </div>
+        <div class="feature__art">
+                    <img class="appshot" src="images/rinks.jpeg" width="640" height="1387"
+               alt="Ice Time app — the Rinks screen: a worldwide rink search with Recently Used and Nearby rinks listed with their distances.">
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ DEEP DIVE: STATS ============ -->
+    <section class="feature">
+      <div class="container feature__grid">
+        <div class="feature__copy">
+          <p class="eyebrow eyebrow--dark">Stats</p>
+          <h2>Watch your season take shape.</h2>
+          <p>Every stat is computed live from your skates — nothing to update by hand. Flip between season and career, set your own season window, and see the numbers that actually tell the story: win rate, points per game, hot streaks, and how this year compares to last.</p>
+          <ul class="ticks">
+            <li>Season and career views, always up to date</li>
+            <li>Points, win rate, points-per-game and streaks</li>
+            <li>Custom season ranges — default Sep 1 to Apr 30</li>
+            <li>A friends leaderboard to keep it honest</li>
+          </ul>
+        </div>
+        <div class="feature__art">
+                    <img class="appshot" src="images/stats.jpeg" width="640" height="1387"
+               alt="Ice Time app — the Stats screen: Season and Career tabs, the season statline, season points, and a weekly activity chart.">
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FRIENDS BAND ============ -->
+    <section class="band band--tint">
+      <div class="container split">
+        <div class="split__copy">
+          <p class="eyebrow eyebrow--dark">Bring the bench</p>
+          <h2>One code adds the whole line.</h2>
+          <p class="section-sub">Share a QR code or an invite link and you're instantly connected — no requests to approve, no friend-of-a-friend maze. A live ticker keeps everyone's goals and assists front and centre, and every teammate's card shows their number, position and shooting hand.</p>
+          <a class="btn-ghost" href="#features">Explore the features →</a>
+        </div>
+        <div class="split__art">
+          <img class="appshot" src="images/friends.jpeg" width="640" height="1237"
+               alt="Ice Time app — the Friends screen: a scrolling ticker of friends' stats above a list of friends showing each player's number, position, shooting hand, goals and assists.">
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PRIVACY ============ -->
+    <section class="privacy" id="privacy">
+      <div class="container">
+        <div class="section-head section-head--light">
+          <p class="eyebrow">Private by design</p>
+          <h2>Your season is yours. Full stop.</h2>
+          <p class="section-sub section-sub--light">Ice Time earns its stats the honest way. No advertising, no third-party analytics, no data sold to anyone — and your location is only ever read while the app is open.</p>
+        </div>
+        <div class="privacy-grid">
+          <div class="pcard">
+            <span class="pcard__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 5 6v5c0 4.4 3 8.3 7 9.6 4-1.3 7-5.2 7-9.6V6l-7-3Z"/><path d="m9 12 2 2 4-4"/></svg>
+            </span>
+            <h3>No ads, no trackers</h3>
+            <p>No advertising SDKs and no third-party analytics or crash reporters. Nothing follows you around.</p>
+          </div>
+          <div class="pcard">
+            <span class="pcard__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-6.5-5.4-6.5-10.2A6.5 6.5 0 0 1 12 4.3a6.5 6.5 0 0 1 6.5 6.5C18.5 15.6 12 21 12 21Z"/><circle cx="12" cy="10.6" r="2.3"/></svg>
+            </span>
+            <h3>Foreground-only location</h3>
+            <p>Location is used only while you're in the app, to find rinks and detect the one you're at. Raw GPS is never stored.</p>
+          </div>
+          <div class="pcard">
+            <span class="pcard__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="10" width="16" height="10" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/><path d="M12 14v2"/></svg>
+            </span>
+            <h3>Never sold</h3>
+            <p>We don't sell your personal information — to anyone, for any reason.</p>
+          </div>
+          <div class="pcard">
+            <span class="pcard__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="6" rx="7" ry="3"/><path d="M5 6v6c0 1.7 3.1 3 7 3s7-1.3 7-3V6"/><path d="M5 12v6c0 1.7 3.1 3 7 3s7-1.3 7-3v-6"/></svg>
+            </span>
+            <h3>Stored in Canada</h3>
+            <p>Your account and activity data live on Canadian servers, encrypted in transit, protected by row-level security.</p>
+          </div>
+        </div>
+        <p class="privacy__link">Read the full <a href="privacy.html">Privacy Policy</a> and <a href="terms.html">Terms of Service</a>.</p>
+      </div>
+    </section>
+
+    <!-- ============ HOW IT WORKS ============ -->
+    <section class="band">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow eyebrow--dark">How it works</p>
+          <h2>From first skate to full season in three steps.</h2>
+        </div>
+        <ol class="steps">
+          <li class="step">
+            <span class="step__num">1</span>
+            <h3>Set up your profile</h3>
+            <p>Add your name, position, jersey number and shooting hand. Takes a minute, then you're on the ice.</p>
+          </li>
+          <li class="step">
+            <span class="step__num">2</span>
+            <h3>Log every skate</h3>
+            <p>After each game, a few taps captures the score and your stat line while the rink detects itself.</p>
+          </li>
+          <li class="step">
+            <span class="step__num">3</span>
+            <h3>Watch it add up</h3>
+            <p>Season summaries, career totals and a friends leaderboard build themselves as you play.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ FINAL CTA ============ -->
+    <section class="cta-band">
+      <div class="cta-band__glow" aria-hidden="true"></div>
+      <div class="container cta-band__inner">
+        <div class="rink-lines rink-lines--center" aria-hidden="true"><span></span><span></span><span></span></div>
+        <h2>Ready to hit the ice?</h2>
+        <p>Ice Time is coming to iPhone. Log your first skate the day it drops.</p>
+        <div class="cta-row cta-row--center">
+          <!-- TODO: replace href with your live App Store URL when the app launches -->
+          <a class="appstore-badge" href="#" aria-label="Coming soon to the App Store">
+            <svg class="appstore-badge__logo" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <path fill="currentColor" d="M17.05 12.94c-.03-2.6 2.12-3.85 2.22-3.91-1.21-1.77-3.1-2.02-3.77-2.05-1.6-.16-3.13.94-3.94.94-.81 0-2.07-.92-3.4-.9-1.75.03-3.36 1.02-4.26 2.58-1.82 3.15-.47 7.82 1.3 10.38.86 1.25 1.89 2.66 3.24 2.6 1.3-.05 1.79-.84 3.36-.84 1.57 0 2.01.84 3.39.81 1.4-.02 2.29-1.27 3.15-2.53.99-1.45 1.4-2.85 1.42-2.93-.03-.01-2.72-1.04-2.75-4.13zM14.6 5.4c.72-.87 1.2-2.08 1.07-3.29-1.03.04-2.28.69-3.02 1.55-.66.77-1.24 2-1.09 3.18 1.15.09 2.32-.58 3.04-1.44z"/>
+            </svg>
+            <span class="appstore-badge__text">
+              <small>Coming soon on the</small>
+              <strong>App Store</strong>
+            </span>
+          </a>
+          <a class="btn-ghost btn-ghost--dark" href="mailto:icetimestatsapp@gmail.com">Get in touch</a>
+        </div>
+      </div>
+    </section>
+
   </main>
 
   <footer class="site-footer">
     <div class="rink-lines" aria-hidden="true"><span></span><span></span><span></span></div>
     <div class="wrap">
       <span>© 2026 Aly Haji · Ice Time</span>
-      <span><a href="mailto:icetimestatsapp@gmail.com">icetimestatsapp@gmail.com</a></span>
+      <nav class="foot-nav" aria-label="Legal">
+        <a href="support.html">Support</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+        <a href="mailto:icetimestatsapp@gmail.com">icetimestatsapp@gmail.com</a>
+      </nav>
     </div>
   </footer>
 
