@@ -113,13 +113,11 @@ img { max-width: 100%; display: block; }
 }
 .brand:hover .brand-name { color: var(--ice-2); }
 
-/* Glowing faceoff-circle logo */
+/* Faceoff-circle logo */
 .brand-mark {
   width: auto;
   height: 40px;
   flex-shrink: 0;
-  /* lift the mark off the navy bar the way it glows in the app */
-  filter: drop-shadow(0 0 6px rgba(226, 59, 82, .55));
 }
 .brand-name {
   font-family: var(--cond);
