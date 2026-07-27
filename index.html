@@ -65,39 +65,50 @@
         </div>
 
         <div class="mkt-hero__art">
-          <!-- Season summary screen -->
+          <!-- My Skates screen -->
           <div class="phone phone--float">
             <div class="phone__notch" aria-hidden="true"></div>
             <div class="phone__screen">
-              <div class="scr scr--stats">
+              <div class="scr scr--tab">
                 <div class="scr__status" aria-hidden="true"><span>9:41</span><span class="scr__dots"></span></div>
-                <div class="scr__head">
-                  <p class="scr__kicker">This Season</p>
-                  <h3>Sep 1 — Apr 30</h3>
+                <div class="scr__titlerow">
+                  <span class="scr__title">My Skates</span>
+                  <span class="scr__actions" aria-hidden="true"><i class="rnd">+</i><i class="rnd rnd--av"></i></span>
                 </div>
-                <div class="statgrid">
-                  <div class="stat"><b>34</b><span>Points</span></div>
-                  <div class="stat"><b>19</b><span>Goals</span></div>
-                  <div class="stat"><b>15</b><span>Assists</span></div>
-                  <div class="stat stat--accent"><b>+12</b><span>Plus / Minus</span></div>
-                </div>
-                <div class="scr__chart" role="img" aria-label="Points trending up across the season">
-                  <p class="scr__chart-label">Points by month</p>
-                  <div class="bars">
-                    <span style="height:34%"></span>
-                    <span style="height:52%"></span>
-                    <span style="height:46%"></span>
-                    <span style="height:70%"></span>
-                    <span style="height:61%"></span>
-                    <span class="bars__peak" style="height:92%"></span>
+                <div class="sl-card">
+                  <h4>Season Statline</h4>
+                  <div class="sl-row">
+                    <span class="sl"><b>4</b><span>GP</span></span>
+                    <span class="sl"><b>10</b><span>G</span></span>
+                    <span class="sl"><b>2</b><span>A</span></span>
+                    <span class="sl"><b>12</b><span>PTS</span></span>
+                    <span class="sl"><b class="pos">+6</b><span>+/-</span></span>
+                    <span class="sl"><b>3.0</b><span>PTS/G</span></span>
                   </div>
                 </div>
-                <div class="scr__row">
-                  <span class="scr__pin" aria-hidden="true"></span>
-                  <div>
-                    <b>Hat trick vs. Northgate</b>
-                    <small>3 G · 1 A · W 6–4 · Riverside Arena</small>
+                <p class="scr__month">Jul 2026</p>
+                <div class="slist">
+                  <div class="srow">
+                    <span class="sdate"><small>JUL</small><b>18</b></span>
+                    <span class="sinfo"><b>Sky Rink</b><span class="sbadges"><span class="tag tag--playoff">Playoff</span></span></span>
+                    <span class="sstat"><span class="g"><b>3</b><small>G</small></span><span class="a"><b>1</b><small>A</small></span><span class="pm zero"><b>0</b><small>+/-</small></span></span>
                   </div>
+                  <div class="srow">
+                    <span class="sdate"><small>JUL</small><b>17</b></span>
+                    <span class="sinfo"><b>Canlan Sports</b><span class="sbadges"><span class="tag tag--league">League</span><span class="pill--win">WIN</span></span></span>
+                    <span class="sstat"><span class="g"><b>2</b><small>G</small></span><span class="a"><b>0</b><small>A</small></span><span class="pm"><b>+2</b><small>+/-</small></span></span>
+                  </div>
+                  <div class="srow">
+                    <span class="sdate"><small>JUL</small><b>6</b></span>
+                    <span class="sinfo"><b>Sky Rink</b><span class="sbadges"><span class="tag tag--league">League</span><span class="pill--win">WIN</span></span></span>
+                    <span class="sstat"><span class="g"><b>3</b><small>G</small></span><span class="a"><b>0</b><small>A</small></span><span class="pm"><b>+3</b><small>+/-</small></span></span>
+                  </div>
+                </div>
+                <div class="tabbar" aria-hidden="true">
+                  <i class="on"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M9 4h6a1 1 0 0 1 1 1a1 1 0 0 0 1 1h1a1 1 0 0 1 1 1v11a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h1a1 1 0 0 0 1-1a1 1 0 0 1 1-1Z"/><path d="m9 13 2 2 4-4"/></svg>Skates</i>
+                  <i><svg viewBox="0 0 24 24" fill="currentColor"><ellipse cx="12" cy="12" rx="8" ry="4.4"/></svg>Rinks</i>
+                  <i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3"/><path d="M3.5 20a5.5 5.5 0 0 1 11 0"/><path d="M16 5.2a3 3 0 0 1 0 5.6"/><path d="M18 14.5a5.5 5.5 0 0 1 2.5 4.5"/></svg>Friends</i>
+                  <i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20V10"/><path d="M10 20V4"/><path d="M16 20v-7"/></svg>Stats</i>
                 </div>
               </div>
             </div>
@@ -187,7 +198,7 @@
                 </div>
                 <div class="scr__row scr__row--soft">
                   <span class="scr__pin" aria-hidden="true"></span>
-                  <div><b>Riverside Arena</b><small>Auto-detected · 0.2 km away</small></div>
+                  <div><b>Sky Rink</b><small>Auto-detected · New York, NY</small></div>
                 </div>
                 <div class="scr__cta" aria-hidden="true">Save skate</div>
               </div>
@@ -215,23 +226,29 @@
           <div class="phone">
             <div class="phone__notch" aria-hidden="true"></div>
             <div class="phone__screen">
-              <div class="scr scr--rink">
+              <div class="scr scr--tab">
                 <div class="scr__status" aria-hidden="true"><span>9:41</span><span class="scr__dots"></span></div>
-                <div class="scr__map" aria-hidden="true">
-                  <span class="scr__map-pin"></span>
+                <span class="scr__title">Rinks</span>
+                <div class="searchbar">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.2-3.2"/></svg>
+                  <span>Search rinks worldwide</span>
                 </div>
-                <div class="scr__head scr__head--tight">
-                  <p class="scr__kicker">Home rink</p>
-                  <h3>Riverside Arena</h3>
+                <p class="scr__month">Recently Used</p>
+                <div class="rlist">
+                  <div class="rrow"><div><b>Sky Rink</b><small>New York, NY · 5.6 km</small></div><span class="chev" aria-hidden="true">›</span></div>
+                  <div class="rrow"><div><b>Canlan Sports</b><small>Etobicoke · 570 km</small></div><span class="chev" aria-hidden="true">›</span></div>
                 </div>
-                <div class="minigrid" aria-hidden="true">
-                  <div class="stat stat--sm"><b>11</b><span>Skates</span></div>
-                  <div class="stat stat--sm"><b>18</b><span>Points</span></div>
-                  <div class="stat stat--sm"><b>4</b><span>Friends</span></div>
+                <p class="scr__month">Nearby</p>
+                <div class="rlist">
+                  <div class="rrow"><div><b>LIC — ICE</b><small>New York · 3.1 km</small></div><span class="chev" aria-hidden="true">›</span></div>
+                  <div class="rrow"><div><b>Ice Rink at Rockefeller Center</b><small>New York, NY · 4.8 km</small></div><span class="chev" aria-hidden="true">›</span></div>
+                  <div class="rrow"><div><b>The Rink at Brookfield Place</b><small>New York, NY · 5.0 km</small></div><span class="chev" aria-hidden="true">›</span></div>
                 </div>
-                <div class="scr__row scr__row--soft">
-                  <span class="scr__mic" aria-hidden="true"></span>
-                  <div><b>Tap to search by voice</b><small>"Find rinks near me"</small></div>
+                <div class="tabbar" aria-hidden="true">
+                  <i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M9 4h6a1 1 0 0 1 1 1a1 1 0 0 0 1 1h1a1 1 0 0 1 1 1v11a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h1a1 1 0 0 0 1-1a1 1 0 0 1 1-1Z"/><path d="m9 13 2 2 4-4"/></svg>Skates</i>
+                  <i class="on"><svg viewBox="0 0 24 24" fill="currentColor"><ellipse cx="12" cy="12" rx="8" ry="4.4"/></svg>Rinks</i>
+                  <i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3"/><path d="M3.5 20a5.5 5.5 0 0 1 11 0"/><path d="M16 5.2a3 3 0 0 1 0 5.6"/><path d="M18 14.5a5.5 5.5 0 0 1 2.5 4.5"/></svg>Friends</i>
+                  <i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20V10"/><path d="M10 20V4"/><path d="M16 20v-7"/></svg>Stats</i>
                 </div>
               </div>
             </div>
@@ -258,22 +275,39 @@
           <div class="phone">
             <div class="phone__notch" aria-hidden="true"></div>
             <div class="phone__screen">
-              <div class="scr scr--board">
+              <div class="scr scr--tab">
                 <div class="scr__status" aria-hidden="true"><span>9:41</span><span class="scr__dots"></span></div>
-                <div class="scr__head">
-                  <p class="scr__kicker">Leaderboard · This season</p>
-                  <h3>Friends</h3>
+                <span class="scr__title">Stats</span>
+                <div class="seg" aria-hidden="true"><span class="on">Season</span><span>Career</span></div>
+                <div class="seasonpick">Summer 2026 <i aria-hidden="true">&#8645;</i></div>
+                <div class="sl-card">
+                  <div class="sl-row">
+                    <span class="sl"><b>4</b><span>GP</span></span>
+                    <span class="sl"><b>10</b><span>G</span></span>
+                    <span class="sl"><b>2</b><span>A</span></span>
+                    <span class="sl"><b>12</b><span>PTS</span></span>
+                    <span class="sl"><b class="pos">+6</b><span>+/-</span></span>
+                    <span class="sl"><b>3.0</b><span>PTS/G</span></span>
+                  </div>
                 </div>
-                <ol class="board">
-                  <li><span class="board__rank">1</span><span class="board__name">You</span><b>34 pts</b></li>
-                  <li><span class="board__rank">2</span><span class="board__name">Marcus D.</span><b>31 pts</b></li>
-                  <li><span class="board__rank">3</span><span class="board__name">Priya S.</span><b>27 pts</b></li>
-                  <li><span class="board__rank">4</span><span class="board__name">Deshawn K.</span><b>22 pts</b></li>
-                </ol>
-                <div class="minigrid minigrid--three" aria-hidden="true">
-                  <div class="stat stat--sm"><b>68%</b><span>Win rate</span></div>
-                  <div class="stat stat--sm"><b>1.9</b><span>Pts / game</span></div>
-                  <div class="stat stat--sm"><b>5</b><span>Wk streak</span></div>
+                <div class="pcard-dark">
+                  <p class="lbl"><span class="dot dot--b" style="width:8px;height:8px;border-radius:50%;display:inline-block"></span>Season Points</p>
+                  <p class="big">12 <small>PTS</small></p>
+                  <div class="pbar" aria-hidden="true"><i class="b1"></i><i class="b2"></i></div>
+                  <p class="legend"><span><span class="dot dot--b"></span>Goals 10</span><span><span class="dot dot--t"></span>Assists 2</span></p>
+                </div>
+                <div class="pcard-dark">
+                  <p class="lbl">Activity · by week</p>
+                  <div class="heatwrap" aria-hidden="true">
+                    <div class="heatrow"><span class="hm">JUN</span><em class="h1"></em><em class="h2"></em><em class="h1"></em><em></em><em></em></div>
+                    <div class="heatrow"><span class="hm">JUL</span><em class="h2"></em><em class="h3"></em><em class="h1"></em><em></em><em></em></div>
+                  </div>
+                </div>
+                <div class="tabbar" aria-hidden="true">
+                  <i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M9 4h6a1 1 0 0 1 1 1a1 1 0 0 0 1 1h1a1 1 0 0 1 1 1v11a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h1a1 1 0 0 0 1-1a1 1 0 0 1 1-1Z"/><path d="m9 13 2 2 4-4"/></svg>Skates</i>
+                  <i><svg viewBox="0 0 24 24" fill="currentColor"><ellipse cx="12" cy="12" rx="8" ry="4.4"/></svg>Rinks</i>
+                  <i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3"/><path d="M3.5 20a5.5 5.5 0 0 1 11 0"/><path d="M16 5.2a3 3 0 0 1 0 5.6"/><path d="M18 14.5a5.5 5.5 0 0 1 2.5 4.5"/></svg>Friends</i>
+                  <i class="on"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20V10"/><path d="M10 20V4"/><path d="M16 20v-7"/></svg>Stats</i>
                 </div>
               </div>
             </div>
