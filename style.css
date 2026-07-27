@@ -435,27 +435,6 @@ main.mkt { max-width: none; margin: 0; padding: 0; display: block; }
 }
 .split__copy .btn-ghost { margin-top: 1.4rem; }
 .split__art { display: flex; justify-content: center; }
-.qr-card {
-  background: var(--panel);
-  border: 1px solid var(--line);
-  border-radius: var(--radius);
-  padding: 1.6rem;
-  box-shadow: var(--shadow-md);
-  text-align: center;
-  max-width: 240px;
-}
-.qr { width: 180px; height: 180px; margin: 0 auto; }
-.qr svg { width: 100%; height: 100%; border-radius: 12px; box-shadow: var(--shadow-sm); }
-.qr-card__label {
-  margin-top: 1rem;
-  font-family: var(--cond);
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: .04em;
-  color: var(--navy);
-  font-size: .95rem;
-}
-
 /* Privacy section (dark) */
 .privacy {
   padding: 5.5rem 0;
@@ -584,6 +563,39 @@ article ul { margin: .8rem 0 .8rem 1.4rem; }
 article li { margin-top: .45rem; }
 article a { color: var(--blue-line); }
 article strong { color: var(--navy); }
+/* Support page — email call-to-action */
+.support-cta {
+  background: linear-gradient(150deg, var(--navy) 0%, var(--navy-deep) 100%);
+  color: var(--white);
+  border-radius: var(--radius);
+  padding: 1.6rem 1.5rem;
+  margin-top: 1.4rem;
+  box-shadow: var(--shadow-md);
+  text-align: center;
+}
+.support-cta__label {
+  font-family: var(--cond);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .14em;
+  font-size: .8rem;
+  color: var(--red-soft);
+}
+.support-cta__email {
+  margin-top: .5rem;
+  font-size: clamp(1.05rem, 3.4vw, 1.5rem);
+  font-weight: 600;
+  word-break: break-word;
+}
+.support-cta__email a {
+  color: var(--white);
+  text-decoration: none;
+  border-bottom: 2px solid var(--red-line);
+}
+.support-cta__email a:hover { border-bottom-width: 3px; }
+.support-cta__note { margin-top: .7rem; font-size: .95rem; color: var(--steel-2); }
+.support-cta__note strong { color: var(--white); }
+
 .callout {
   background: var(--panel);
   border: 1px solid var(--line);
